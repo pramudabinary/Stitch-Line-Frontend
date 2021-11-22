@@ -3,34 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <title>Stitch Line</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
 
 <section id="nav-bar">
 
-<div class="nav">
 
     <div class="title">
         <h1>Stitch-Line</h1>
     </div>
 
-    <a href="#">SignUp</a>
-    <a href="#">SignIn</a>
 
-</div>
-
-
-
-
+    <div class="nav-btn">
+        <button id="btnRegister">SignUp</button>
+        <button id="btnLogin">SignIn</button>
+    </div>
 </section>
 
 <section id="register">
 
+    <div class="col1">
+
+        <div class="form-title">
+            <h1>SignUp FORM</h1>
+            <h4>Stitch Line</h4>
+        </div>
+
+        <div class="form">
+            <div class="form-control">
+                <input autocomplete="off" id="inputUserId"
+                       name="id"
+                       placeholder=" Customer ID" type="text">
+            </div>
+            <div class="form-control">
+                <input autocomplete="off" id="inputName" name="name"
+                       placeholder=" Customer Name" type="text">
+            </div>
+
+            <div class="form-control">
+                <input autocomplete="off" id="inputAddress"
+                       name="address"
+                       placeholder="Address" type="text">
+            </div>
+            <div class="form-control">
+                <input autocomplete="off" id="inputContact" name="contact"
+                       placeholder="Contact" type="text">
+            </div>
+
+            <div class="form-control">
+                <input autocomplete="off" id="inputEmail"
+                       name="email"
+                       placeholder="Email" type="text">
+            </div>
+
+            <div class="form-control">
+                <input autocomplete="off" id="inputCustomerUserName" name="password"
+                       placeholder=" User Name" type="password">
+            </div>
+
+            <div class="form-control">
+                <input autocomplete="off" id="inputCustomerPassword" name="password"
+                       placeholder=" Password" type="password">
+            </div>
+
+            <div class="buttons">
+                <button class="btn" id="btnSave" type="button">SignUp</button>
+            </div>
 
 
+        </div>
 
 
-
+    </div>
 </section>
+
+<section id="login">
+    <div class="col1">
+
+
+        <div class="form-title">
+            <h1>LOGIN FORM</h1>
+            <h4>Stitch Line</h4>
+        </div>
+
+        <div class="form">
+
+            <div class="image">
+                <img alt="" height="130px" src="assets/admin2-modified.png" width="130px">
+            </div>
+
+
+            <div class="form-control">
+                <input autocomplete="off" id="inputLoginUserName" name="password"
+                       placeholder=" User Name" type="password">
+            </div>
+
+            <div class="form-control">
+                <input autocomplete="off" id="inputLoginPassword" name="password"
+                       placeholder=" Password" type="password">
+            </div>
+
+            <div class="buttons">
+                <button class="btn" id="btnSignIn" type="button">SignIn</button>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/control.js"></script>
+<script src="js/ajax.js"></script>
 </body>
 </html>

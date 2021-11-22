@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    background: #34495e;
+}
+
+#nav-bar{
+    background: black;
+    height: 50px;
+}
+#nav-bar .nav-btn{
+    position: absolute;
+    right: 0;
+
+}
+
+#nav-bar .nav-btn button{
+    margin:0 0 21px 20px;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    border-radius:20px;
+    background: #39b7dd;
+    border: 1px solid black;
+}
+
+#nav-bar  .title {
+    width: 150px;
+    height: 10px;
+    display: inline;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: crimson;
+}
+#nav-bar  .title h1 {
+    width: 200px;
+    height: 10px;
+}
+
+#nav-bar .nav-btn a + a {
+    margin-left: 20px;
+}
+
+#nav-bar #btnLogin{
+    margin-right: 10px;
+}
+
+/*================================Register Section============================================*/
+
+#register{
+    height: 89vh;
+    width: 99%;
+}
+#register .form-title {
+    text-align: center;
+    font-size: 30px;
+    color: #ff7675;
+    font-family: 'Rampart One', cursive;
+}
+
+#register .form {
+    padding-top: 30px;
+    text-align: center;
+}
+
+#register .form .form-control {
+    padding-bottom: 20px;
+    position: relative;
+}
+
+#register .form .form-control input {
+    margin: 0 auto;
+    border: 2px solid #f0f0f0;
+    width: 300px;
+    height: 38px;
+    border-radius: 10px;
+    display: block;
+}
+
+#register .buttons {
+    margin: 08px 0 0 15px;
+
+}
+
+#register .buttons .btn {
+    width: 95px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    /*margin-right: 10px;*/
+    background: #81ecec;
+    font-weight: bold;
+}
+
+/*================================End Register Section============================================*/
+
+/*================================SignIn Section============================================*/
+
+#login{
+    height: 89vh;
+    width: 99%;
+}
+#login .form-title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #ff7675;
+    font-family: 'Rampart One', cursive;
+}
+
+#login .form {
+    padding-top: 30px;
+    text-align: center;
+}
+
+#login .form .image {
+    margin-bottom: 50px ;
+    text-align: center;
+}
+
+#login .form .form-control {
+    padding-bottom: 20px;
+    position: relative;
+}
+
+#login .form .form-control input {
+    margin: 0 auto;
+    border: 2px solid #f0f0f0;
+    width: 300px;
+    height: 38px;
+    border-radius: 10px;
+    display: block;
+}
+
+#login .buttons {
+    margin: 08px 0 0 15px;
+
+}
+
+#login .buttons .btn {
+    width: 95px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    /*margin-right: 10px;*/
+    background: #81ecec;
+    font-weight: bold;
+}
+#login .form   .forget{
+    margin-top: 5px;
+    color: black;
+    font-size: 10px;
+    border-radius: 15px;
+}
